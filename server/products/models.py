@@ -7,7 +7,7 @@ from django.template.defaultfilters import slugify
 class Product(models.Model):
     # Model fields create products.
     name = models.CharField(max_length=50)
-    sku = models.UUIDField(primary_key=True, default=uuid.uuid4)
+    sku = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     slug = models.SlugField()
     image = models.CharField(max_length=150, blank=True)
     descrption = models.CharField(max_length=150, blank=True)
