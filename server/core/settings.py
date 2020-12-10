@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'djoser',
     'django_summernote',
     'accounts',
+    'products',
     # 'contacts',
     'storages',
 ]
