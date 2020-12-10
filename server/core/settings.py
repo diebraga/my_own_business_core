@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'accounts',
     'products',
-    # 'contacts',
+    'contacts',
     'storages',
 ]
 
